@@ -5,17 +5,17 @@ import {
     Route,
   } from "react-router-dom";
 import "../styles/global.css"
-import Home from '../pages/Home'
-import NotFound from '../pages/NotFound'
-import NewPassword from '../pages/NewPassword'
-import PasswordRecovery from '../pages/PasswordRecovery'
-import Layout from '../containers/Layout'
-import Login from '@pages/login'
-import MyAccount from '../pages/MyAccount'
-import SendEmail from '../pages/SendEmail'
-import CreateAccount from '../pages/CreateAccount'
-import Checkout from '../pages/Checkout'
-import Orders from '../pages/Orders'
+import Home from '@pages/Home'
+import NotFound from '@pages/NotFound'
+import NewPassword from '@pages/NewPassword'
+import PasswordRecovery from '@pages/PasswordRecovery'
+import Layout from '@containers/Layout'
+import Login from '@pages/Login'
+import MyAccount from '@pages/MyAccount'
+import SendEmail from '@pages/SendEmail'
+import CreateAccount from '@pages/CreateAccount'
+import Checkout from '@pages/Checkout'
+import Orders from '@pages/Orders'
 import AppContext from '@context/AppContext';
 import useInitialState from '@hooks/useInitialState';
 const App = () => {
